@@ -1,0 +1,31 @@
+#1 What is HTTP?
+- HTTP stands for Hypertext Transfer Protocol. It is the standard method for communication between browsers and servers. It allows for one's internet browser (chrome, safari, etc.) to make requests on other internet servers and pull information. HTTP can also send data to servers, if need be. Very often, this information is an HTML. Recently, there has been a move to a more secure version of HTTP called HTTPS. The S stands for 'secure'.
+
+#2 What is a URL?
+- URL stands for uniform resource locator. A URL is a placeholder for a IP number. It is an address for some internet resource. URLs contain Protocol, a Hostname, a Port, and potentially a Resource or Query.
+
+#3 What is DNS?
+- DNS stands for Domain Name System. When your browser makes a request for a particular URL, it checks through a few different locations (such as the router). If it is unable to find that particular URL, it will check the DNS Server. The DNS Server is a location where the browser can find the request it is looking for. Short and sweet, the DNS turns URLs into IP addresses.
+
+#4 What is a query string?
+- A query string is a request added to the end of the URL which enables one to search across the domain. Specifically, the query string allows you to pass in key-value pairs. Multiple arguments are passed through by the '&' sign. And the '=' sign allows you to set the key-value pair. Query String always starts with a '?'.
+
+#5 What are two HTTP verbs and how are they different?
+- GET and POST. GET requests information from a server without changing any of the data. POST its used when one plans on directly altering some information on the server.
+
+#6 What is an HTTP request?
+- your browser contacts a specific server and requests a body of code.
+
+#7 What is an HTTP response?
+- the server sends specific code to your browser in order to execute. 
+
+#8 What is an HTTP header? Give a couple examples of request and response headers you have seen.
+- an HTTP request and response both contain something called a header. In a request header, you will often find the following: hostname you're asking about, date, language, cookies, etc. In a response header, will you find the following: content Type (typically text/html), date/time, cookies, etc. 
+
+#9 What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+- your browser interprets what you've typed, it searches through a few processes to find that particular URL. Sometimes it has to go to the DNS to find it. Eventually, that URL becomes an IP address. It can send a request to that server and pull data from the server.
+- your browser makes an HTTP request to the server, asking for specific info.
+- the server sends your browser an HTTP response with a block of code.
+- browser contracts a DOM from that block of code (usually HTML), and adds in other info if necessary... images, CSS, JavaScript, etc.
+
+ 
